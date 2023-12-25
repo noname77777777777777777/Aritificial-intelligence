@@ -1,0 +1,12 @@
+1	Mura	Rung	Thấp	Đông
+2	Năng	Xanh	Trung binh	Xuân
+3	Năng	Vàng	Trung binh	Thu
+4	Năng	Xanh	Cao	He
+5	Năng	Rung	Thap	Đông
+6	Tuyết	Vàng	Thâp	Đông
+7	Mura	Rụng	Trung  binh	Thu
+8	Mura	Xanh	Cao	He
+9	Tuyết	Xanh	Thấp	Đông
+10	Tuyết	Rụng	Thâp	Đông
+11	Mura	Vàng	Trung binh	Thu
+12	Mura	Xanh	Trung binh	Xuân

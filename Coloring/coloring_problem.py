@@ -46,8 +46,9 @@ def IsFullColorCheck(ListColorGraph):
         if(ListColorGraph[i].getvalue2 == False):
             return False
     return True
-
+Number_Color = 0
 def Coloring_Problem(ListColorGraph,graph):
+    global Number_Color
     IsFullColor = False
     while IsFullColor == False:
         for i in range(len(ListColorGraph)):
@@ -55,6 +56,7 @@ def Coloring_Problem(ListColorGraph,graph):
                 IsFullColor = True
             if(ListColorGraph[i].getvalue2 != True):
                 print("1* " ,ListColorGraph[i].getvalue1())
+                Number_Color+=1
                 ListColorGraph[i].getvalue2 = True
                 for j in range(len(graph)):
                     if(IsAdjacent(graph,int(ListColorGraph[i].getvalue1()),int(ListColorGraph[j].getvalue1())) and ListColorGraph[j].getvalue2!=True):
@@ -62,3 +64,4 @@ def Coloring_Problem(ListColorGraph,graph):
                         print("2*  ",ListColorGraph[j].getvalue1())
 
 Coloring_Problem(List_Color_Graph,graph)
+print("Total Number Need Color is : ",Number_Color)

@@ -1,0 +1,12 @@
+1	Mura	Rung	Thap	Dong
+2	Nang	Xanh	Trung binh	Xuan
+3	Nang	Vang	Trung binh	Thu
+4	Nang	Xanh	Cao	He
+5	Nang	Rung	Thap	Dong
+6	Tuyet	Vang	Thap	Dong
+7	Mura	Rung	Trung  binh	Thu
+8	Mura	Xanh	Cao	He
+9	Tuyet	Xanh	Thap	Dong
+10	Tuyet	Rung	Thap	Dong
+11	Mura	Vang	Trung binh	Thu
+12	Mura	Xanh	Trung binh	Xuan
